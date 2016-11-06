@@ -57,7 +57,9 @@ class ConvLayer(object):
     def __init__(self, source, filter_shape, image_shape, stride,
                  act_fn, border_mode='full', name='conv'):
         """
-
+        Create a convolutional layer
+        This is adapted from the deeplearning.net Theano tutorial
+        
         :source: previous layer or tensor
 
         :type filter_shape: tuple or list of length 4
