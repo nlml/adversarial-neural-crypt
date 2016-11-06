@@ -23,7 +23,7 @@ key_len = 16
 comm_len = 16
 
 # Set this flag to exclude convolutional layers from the networks
-skip_conv = True
+skip_conv = False
 
 # Function to generate n random messages and keys
 def gen_data(n=batch_size, msg_len=msg_len, key_len=key_len):
